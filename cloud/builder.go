@@ -1,4 +1,4 @@
-package builder
+package cloud
 
 import "fmt"
 
@@ -15,5 +15,6 @@ func New() *Builder {
 }
 
 func (cb *Builder) Run(cmd string) {
+	//Validate
 	fmt.Printf("Running %s", cmd)
 }

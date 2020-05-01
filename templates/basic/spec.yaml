@@ -1,0 +1,6 @@
+Version: 0.0.1
+Engine: aws
+Class: ec2
+Name: ec2-launcher
+Spec: Sojmething
+Output: Other
